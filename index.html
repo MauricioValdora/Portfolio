@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mauricio Alejandro Valdora </title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Mauricio</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">MI CAMINO</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PROYECTOS</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/WhatsApp Image 2023-05-20 at 13.23.46.jpeg" alt="">
+            </div>
+            <h1>MAURICIO VALDORA</h1>
+            <h2>Software & Web Developer</h2>
+            <div class="redes">
+                <a href="https://www.facebook.com/mauricio.valdora"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://twitter.com/MauricioValdora"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/mauricio-alejandro-valdora-88b311237/"><i
+                        class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://github.com/MauricioValdora"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy Mauricio Alejandro Valdora.</span>Tengo experiencia en el desarrollo web tanto del lado
+                del cliente como del servidor, utilizando lenguajes como HTML, CSS, JavaScript, y frameworks populares
+                como React.js y Angular. También estoy familiarizado con la creación de aplicaciones web escalables y
+                seguras, utilizando tecnologías como Node.js y Express.js.</p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            08/08/1996
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            1173631792
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            valdoramauricio@gmail.com
+                        </li>
+                        <li>
+                            <strong>Localidad</strong>
+                            San antonio de padua - Buenos aires -Argentina
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-robot"></i>
+                            <span>TECNOLOGIA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <a href="/assets/Mauricio Alejandro Valdora Curriculum Vitae.pdf" download>
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Angular</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>React</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>NodeJS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>99%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>65%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Ingles</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>MI CAMINO</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educación</h3>
+                    <div class="item izq">
+                        <h4>Programacion</h4>
+                        <span class="casa">Universidad Tecnologica Nacional</span>
+                        <span class="fecha">2021 - 2023</span>
+                        <p>Estudié en la Universidad Técnica en Programación, donde adquirí habilidades sólidas en
+                            programación y conocimientos fundamentales. Exploré diversos lenguajes de programación y
+                            realicé proyectos prácticos</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Full Stack Deveoper</h4>
+                        <span class="casa">Coder House</span>
+                        <span class="fecha">2023 - Actualidad</span>
+                        <p>En Coder House, he aprendido los fundamentos esenciales tanto del front-end como del back-end
+                            del desarrollo web. He adquirido conocimientos sólidos en lenguajes y tecnologías como HTML,
+                            CSS, JavaScript, Python, Node.js y bases de datos. Esta formación integral me ha permitido
+                            crear aplicaciones web completas y funcionales, desde la interfaz de usuario hasta el manejo
+                            de datos y la lógica del negocio.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Ingles</h4>
+                        <span class="casa">Instituto ELT </span>
+                        <span class="fecha">2013 - Actualidad</span>
+                        <p>Estudio inglés desde 2013 y he logrado un progreso significativo en mis habilidades de
+                            comunicación. He adquirido un amplio vocabulario y una sólida comprensión gramatical.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col derecha">
+                    <h3>Experiencia de trabajo</h3>
+                    <div class="item der">
+                        <h4>Especialista en Ciber Seguridad</h4>
+                        <span class="casa">Edsi Trend</span>
+                        <span class="fecha">2022 - 2023</span>
+                        <p>Trabajé en ciberseguridad en la empresa EDSI Trend, donde tuve una experiencia enriquecedora
+                            y aprendí mucho. Durante mi tiempo allí, adquirí conocimientos y habilidades sólidas en la
+                            protección de datos y la prevención de amenazas cibernéticas.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>FrontEnd Developer</h4>
+                        <span class="casa">Acurrancy</span>
+                        <span class="fecha">2022 - Actualidad</span>
+                        <p>Actualmente, estoy trabajando en un proyecto destinado a universidades. Estamos utilizando el
+                            poderoso framework Ionic de Angular para crear una aplicación móvil interactiva y funcional.
+                            Esta experiencia está siendo extremadamente valiosa, ya que me brinda la oportunidad de
+                            aprender y aplicar mis conocimientos en un entorno práctico. Estoy aprovechando al máximo
+                            esta oportunidad para adquirir habilidades en desarrollo de aplicaciones móviles y
+                            fortalecer mi comprensión del framework Ionic y el lenguaje Angular.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Reparacion de computadoras</h4>
+                        <span class="casa">Por mi porpia cuenta</span>
+                        <span class="fecha">2018 - 2022</span>
+                        <p>"He trabajado en el campo de reparación de computadoras, donde he adquirido experiencia tanto
+                            en la solución de problemas de software como de hardware. Mi trabajo ha involucrado el
+                            diagnóstico y la resolución de problemas de software, como la eliminación de malware, la
+                            reparación de sistemas operativos y la optimización del rendimiento. Además, he tenido la
+                            oportunidad de trabajar en la reparación y reemplazo de componentes de hardware, como la
+                            sustitución de discos duros, memorias, tarjetas gráficas, etc.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PROYECTOS</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="https://traductor-valdora.netlify.app/" target="_blank"> <img
+                            src="img/WhatsApp Image 2023-05-18 at 09.42.02.jpeg" alt="">
+                        <div class="overlay">
+                            <h3>Traductor</h3>
+                            <p>Translator</p>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="proyecto">
+                    <a href="https://conversor-valdora.netlify.app/" target="_blank"> <img
+                            src="img/Screenshot 2023-05-18 094445.png" alt="">
+                        <div class="overlay">
+                            <h3>Convertidor de</h3>
+                            <p>Moneda</p>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="proyecto">
+                    <a href="https://mauriciovaldora.github.io/Flex-Panels/index-START.html" target="_blank"> <img
+                            src="img/Screenshot 2023-05-18 094603.png" alt="">
+                        <div class="overlay">
+                            <h3>Flex</h3>
+                            <p>Panel</p>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="proyecto">
+                    <a href="https://mauriciovaldora.github.io/drum/" target="_blank"> <img
+                            src="img/Screenshot 2023-05-18 094855.png" alt="">
+                        <div class="overlay">
+                            <h3>Bateria</h3>
+                            <p>Web</p>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="proyecto">
+                    <a href="https://skateland.netlify.app/index.html" target="_blank"> <img
+                            src="img/Screenshot 2023-05-20 105155.png" alt="">
+                        <div class="overlay">
+                            <h3>Skateland</h3>
+                            <p>Pagina de skate</p>
+                        </div>
+                    </a>
+
+                </div>
+                <div class="proyecto">
+                    <a href="https://mauriciovaldora.github.io/shercher/index-START.html" target="_blank"> <img
+                            src="img/Screenshot 2023-05-18 095437.png" alt="">
+                        <div class="overlay">
+                            <h3>Buscador de </h3>
+                            <p>ciudades y paises</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <form method="POST" action="https://formsubmit.co/mauricio_valdora@hotmail.com.ar"
+                        enctype="multipart/form-data">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="email" name="email" placeholder="Email">
+                        <textarea name="message" rows="16" cols="50" placeholder="Escribime tu mensaje"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26251.82558883563!2d-58.71455020774293!3d-34.66787861757951!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf8707ca9e95%3A0x7a4b25f03463e529!2sSan%20Antonio%20de%20Padua%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1684360093791!5m2!1ses-419!2sar"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="https://www.facebook.com/mauricio.valdora"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://twitter.com/MauricioValdora"><i class="fa-brands fa-twitter"></i></a>
+            <a href=https://www.linkedin.com/in/mauricio-alejandro-valdora-88b311237/"><i
+                    class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://github.com/MauricioValdora"><i class="fa-brands fa-github"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
